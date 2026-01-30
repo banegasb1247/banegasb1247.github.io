@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback | The Dark Knight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Fan Feedback</h1>
+  <p>Tell me what you think about The Dark Knight</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="cast.html">Cast</a>
+  <a href="feedback.html">Feedback</a>
+  <a href="media.html">Media</a>
+</nav>
+
+<main>
+  <h2>Feedback Form</h2>
+
+  <form class="form-box">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <!-- Dropdown -->
+    <label for="favorite">Favorite Part of the Movie:</label><br>
+    <select id="favorite" name="favorite">
+      <option value="story">Story</option>
+      <option value="batman">Batman</option>
+      <option value="joker">The Joker</option>
+      <option value="action">Action Scenes</option>
+      <option value="music">Music</option>
+    </select>
+
+    <br><br>
+
+    <!-- Radio buttons with legend -->
+    <fieldset>
+      <legend>Rating</legend>
+
+      <input type="radio" id="r1" name="rating" value="1">
+      <label for="r1">1 - Not for me</label><br>
+
+      <input type="radio" id="r3" name="rating" value="3">
+      <label for="r3">3 - Good</label><br>
+
+      <input type="radio" id="r5" name="rating" value="5">
+      <label for="r5">5 - Amazing</label>
+    </fieldset>
+
+    <br>
+
+    <!-- Comment box -->
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="6" cols="50" placeholder="Type your comment here..."></textarea>
+
+    <br><br>
+
+    <!-- Submit + Reset -->
+    <input class="btn-submit" type="submit" value="Submit">
+    <input class="btn-reset" type="reset" value="Reset">
+  </form>
+
+  <div class="footer">
+    <p>&copy; 2026 Dark Knight Fan Site</p>
+  </div>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#0b0f16;
+  color:#e5e7eb;
+}
+
+header{
+  background:#111827;
+  padding:18px 16px;
+  border-bottom:2px solid #fbbf24;
+}
+
+header h1{ margin:0; font-size:28px; }
+header p{ margin:6px 0 0; opacity:.9; }
+
+nav{
+  background:#0f172a;
+  padding:10px 16px;
+  border-bottom:1px solid #374151;
+}
+
+nav a{
+  color:#fbbf24;
+  text-decoration:none;
+  margin-right:14px;
+  font-weight:bold;
+}
+
+nav a:hover{ text-decoration:underline; }
+
+main{
+  max-width:950px;
+  margin:20px auto;
+  background:#111827;
+  padding:18px;
+  border-radius:12px;
+  border:1px solid #374151;
+}
+
+.hero{
+  max-width:320px;
+  border-radius:12px;
+  border:2px solid #374151;
+}
+
+.card{
+  background:#0f172a;
+  border:1px solid #374151;
+  border-radius:12px;
+  padding:14px;
+  margin-top:14px;
+}
+
+.footer{
+  margin-top:18px;
+  padding-top:12px;
+  border-top:1px solid #374151;
+  font-size:14px;
+}
+
+/* Table */
+table{
+  border-collapse:collapse;
+  width:100%;
+  background:#0b1220;
+}
+th, td{
+  padding:10px;
+  text-align:left;
+}
+th{
+  background:#111827;
+}
+
+/* Form requirements */
+.form-box{
+  background:#1f2937;           /* form background */
+  padding:16px;
+  border-radius:12px;
+  border:1px solid #374151;
+  max-width:560px;
+}
+
+textarea{
+  background:#e5e7eb;           /* comment box different color */
+  color:#111;
+}
+
+.btn-submit{
+  background:#fbbf24;           /* submit unique color */
+  color:#111;
+  border:none;
+  padding:8px 14px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.btn-reset{
+  background:#ef4444;           /* reset unique color */
+  color:white;
+  border:none;
+  padding:8px 14px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.btn-submit:hover, .btn-reset:hover{
+  opacity:.9;
+}
